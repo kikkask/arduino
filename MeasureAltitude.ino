@@ -1,3 +1,4 @@
+// código para ser usado na eletrônica do foguete da Bravo
 #include <Wire.h>
 float RateRoll, RatePitch, RateYaw;
 float AngleRoll, AnglePitch;
