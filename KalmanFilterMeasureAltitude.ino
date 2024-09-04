@@ -1,4 +1,4 @@
-// código para ser usado na eletrônica do foguete da Bravo
+// código para ser instalado na eletrônica do foguete da Bravo a ser usado na LASC.
 #include <Wire.h>
 float RateRoll, RatePitch, RateYaw;
 float AngleRoll, AnglePitch;
