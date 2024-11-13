@@ -264,9 +264,8 @@ void loop() {
   AltitudeBarometer -= AltitudeBarometerStartUp;
   kalman_2d();
 
-  Serial.print("Altitude [cm]: ");
   Serial.print(AltitudeKalman);
-  Serial.print(" Vertical velocity [cm/s]: ");
+  Serial.print(" ");
   Serial.println(VelocityVerticalKalman);
 
   while (micros() - LoopTimer < 4000);
